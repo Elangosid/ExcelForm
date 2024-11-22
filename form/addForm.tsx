@@ -1,5 +1,7 @@
-export const Form = () => {
+export const AddForm = () =>{
     return (
-        <div>Hello Form</div>
+        <div>
+            <h1 className="text-xl">Form</h1>
+        </div>
     )
 }
