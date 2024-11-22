@@ -1,8 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import axios from "axios";
-import { AddForm } from "./addForm";
-import { Data } from "./formData";
+
 
 
 const BaseUrl = "http://localhost:5000/api/save-user";
@@ -35,8 +34,8 @@ const UserForm: React.FC = () => {
 
     return (
         <div className="max-w-lg mx-auto p-6">
-            <AddForm />
-            <Data />
+     
+       
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                     <label className="block text-sm font-medium text-gray-700">Name</label>
