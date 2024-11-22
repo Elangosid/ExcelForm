@@ -1,11 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import axios from "axios";
-<<<<<<< HEAD
-import { Form } from "./addForm";
-=======
 import { AddForm } from "./addForm";
->>>>>>> new-branch
 const BaseUrl = "http://localhost:5000/api/save-user";
 
 
@@ -36,11 +32,7 @@ const UserForm: React.FC = () => {
 
     return (
         <div className="max-w-lg mx-auto p-6">
-<<<<<<< HEAD
-            <Form/>
-=======
             <AddForm/>
->>>>>>> new-branch
             <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                     <label className="block text-sm font-medium text-gray-700">Name</label>
