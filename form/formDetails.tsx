@@ -1,9 +1,8 @@
-export const Details = () => {
-    return (
+export const DetailsForm = () =>{
+    return(
         <>
-            <div>Details</div>
-            <div>Hello</div>
+        <div>Form</div>
+        <div>form2</div>
         </>
     )
 }
-
